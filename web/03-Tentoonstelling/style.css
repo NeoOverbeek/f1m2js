@@ -1,0 +1,9 @@
+body{
+    background-color: cadetblue;
+}
+
+#container{
+    background-color: darkcyan;
+    width: 800px;
+    margin: auto;
+}
