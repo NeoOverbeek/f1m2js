@@ -1,5 +1,5 @@
 #container {
-    background-color: greenyellow;
+    background-color: cornflowerblue;
     width: 700px;
     height: 500px;
     margin: 100px auto auto auto;
@@ -22,14 +22,14 @@ img {
 button {
     position: relative;
     left: 260px;
-    background-color: rgb(15, 18, 231);
+    background-color: rgb(185, 158, 93);
 }
 
 button:hover {
     cursor: pointer;
     text-decoration: none;
-    color: greenyellow;
-    background-color: hotpink;
+    color: rgb(251, 251, 251);
+    background-color: rgb(167, 115, 19);
 }
 
 
