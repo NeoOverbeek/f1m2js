@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <canvas style="border: 1px solid black" id="mycanvas" height ="800" width = "1200">
+</body>
+<script src="turtle.js"></script>
+<script>
+  var p = new Turtle(document.getElementById("mycanvas"));
+  p.moveto(600, 350);
+  p.penDown = true;
+
+for(var i = 0; i < 360; i++){
+  p.forward(5 + i);
+  p.left(10);
+}
+	
+
+</script>
+</html>
