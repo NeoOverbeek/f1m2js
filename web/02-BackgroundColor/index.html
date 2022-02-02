@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="kopje">Museum online javascript</h1>
+
+    <p id="mkBlue">maak blauw</p>
+    <p id="mkGreen">maak groen</p>
+    <p id="mkPurple">maak paars</p>
+
+    <script>
+        const kopje = document.getElementById("kopje");
+        const mkBlue = document.getElementById("mkBlue");
+        const mkGreen = document.getElementById("mkGreen");
+        const mkPurple = document.getElementById("mkPurple");
+
+        kopje.style.backgroundColor = "red";
+
+        kopje.addEventListener('click',voeruitKopje);
+        mkBlue.addEventListener('click',voeruitBlue);
+        mkGreen.addEventListener('click',voeruitGreen);
+        mkPurple.addEventListener('click',voeruitPurple);
+
+        function voeruitKopje(){
+            kopje.style.backgroundColor = "yellow";
+            kopje.style.color = "black";
+        }
+
+        function voeruitBlue(){
+            document.body.style.backgroundColor = "blue";
+            document.body.style.color = "white";
+            kopje.style.backgroundColor = "white";
+            kopje.style.color = "black";
+        }
+
+        function voeruitGreen(){
+            document.body.style.backgroundColor = "green";
+            kopje.style.backgroundColor = "white";
+        }
+
+        function voeruitPurple(){
+            document.body.style.backgroundColor = "purple";
+            kop.style.backgroundColor = "orange";
+        }
+
+    </script>
+
+</body>
+</html>
