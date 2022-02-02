@@ -1,0 +1,36 @@
+#container {
+    background-color: greenyellow;
+    width: 700px;
+    height: 500px;
+    margin: 100px auto auto auto;
+}
+
+
+
+h2 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+img {
+    padding-top: 50px;
+    padding-left: 250px;
+    margin-bottom: 20px;
+}
+
+button {
+    position: relative;
+    left: 260px;
+    background-color: rgb(15, 18, 231);
+}
+
+button:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: greenyellow;
+    background-color: hotpink;
+}
+
+
+

@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+
+#container {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 500px;
+    margin: 30px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 2px solid grey;
+}
+
+#myinteraction {
+    padding: 10px;
+}
+
+
+
+#mapimage {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
